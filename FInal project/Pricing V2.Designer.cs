@@ -1,6 +1,6 @@
 ﻿namespace FInal_project
 {
-    partial class View_owner_details
+    partial class Pricing_V2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Pricing_V2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "View_owner_details";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(214)))), ((int)(((byte)(228)))));
+            this.ClientSize = new System.Drawing.Size(1220, 671);
+            this.Name = "Pricing_V2";
+            this.Text = "Pricing_V2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

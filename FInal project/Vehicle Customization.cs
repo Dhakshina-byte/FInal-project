@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FInal_project
 {
-    public partial class View_owner_details : Form
+    public partial class Vehicle_Customization : Form
     {
-        public View_owner_details()
+        public Vehicle_Customization()
         {
             InitializeComponent();
         }

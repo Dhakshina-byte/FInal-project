@@ -82,6 +82,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pricing V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing V2.Designer.cs">
+      <DependentUpon>Pricing V2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pricing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,23 +108,29 @@
     <Compile Include="Sales_Manager.Designer.cs">
       <DependentUpon>Sales_Manager.cs</DependentUpon>
     </Compile>
+    <Compile Include="Service_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service_Manager.Designer.cs">
+      <DependentUpon>Service_Manager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Test drive details.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Test drive details.Designer.cs">
       <DependentUpon>Test drive details.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vehicle Customization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicle Customization.Designer.cs">
+      <DependentUpon>Vehicle Customization.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vehicle owner details.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vehicle owner details.Designer.cs">
       <DependentUpon>Vehicle owner details.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View owner details.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View owner details.Designer.cs">
-      <DependentUpon>View owner details.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Add Acc.resx">
       <DependentUpon>Add Acc.cs</DependentUpon>
@@ -137,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing V2.resx">
+      <DependentUpon>Pricing V2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pricing.resx">
       <DependentUpon>Pricing.cs</DependentUpon>
@@ -157,14 +172,17 @@
     <EmbeddedResource Include="Sales_Manager.resx">
       <DependentUpon>Sales_Manager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Service_Manager.resx">
+      <DependentUpon>Service_Manager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Test drive details.resx">
       <DependentUpon>Test drive details.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vehicle Customization.resx">
+      <DependentUpon>Vehicle Customization.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vehicle owner details.resx">
       <DependentUpon>Vehicle owner details.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View owner details.resx">
-      <DependentUpon>View owner details.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
