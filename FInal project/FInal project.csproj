@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accountant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accountant.Designer.cs">
+      <DependentUpon>Accountant.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add Acc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="CEO Dashbord.Designer.cs">
       <DependentUpon>CEO Dashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory Manager.Designer.cs">
+      <DependentUpon>Inventory Manager.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -132,6 +144,9 @@
     <Compile Include="Vehicle owner details.Designer.cs">
       <DependentUpon>Vehicle owner details.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Accountant.resx">
+      <DependentUpon>Accountant.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add Acc.resx">
       <DependentUpon>Add Acc.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CEO Dashbord.resx">
       <DependentUpon>CEO Dashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory Manager.resx">
+      <DependentUpon>Inventory Manager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
